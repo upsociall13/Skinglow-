@@ -1,0 +1,8 @@
+{
+  "name": "Skin Wise Skincare",
+  "description": "A personalized skincare companion that tracks your daily routine and uses AI to analyze skin conditions for better results.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
