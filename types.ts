@@ -1,11 +1,18 @@
 
 export enum AppView {
+  AUTH = 'auth',
   ANALYSIS = 'analysis',
   ROUTINE = 'routine',
   SHOP = 'shop',
   PROFILE = 'profile',
   DIARY = 'diary',
   REMINDERS = 'reminders'
+}
+
+export interface User {
+  name: string;
+  email: string;
+  photo?: string;
 }
 
 export interface RoutineStep {
